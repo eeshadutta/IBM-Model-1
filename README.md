@@ -1,7 +1,5 @@
 # Word Alignment
 
-##### Eesha Dutta [20171104]
-
 ## IBM Model 1
 - IBM Model is a Word Based Model for Machine Translation. It is a generative model.
 - f: foreign language and e: english. We want to convert f->e

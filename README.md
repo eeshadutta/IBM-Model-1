@@ -1,6 +1,4 @@
-# Word Alignment
-
-## IBM Model 1
+# IBM Model 1
 - IBM Model is a Word Based Model for Machine Translation. It is a generative model.
 - f: foreign language and e: english. We want to convert f->e
 - Translation probability P(e|f) and Alignment function a(j) -> i are calculated using **Expectation Maximization** on sentence aligned text
@@ -11,8 +9,9 @@
 - count(e|f) is stored in a similar manner as t(e|f). Rather than storing the counts of all pairs of (e,f), only those ones are stored which actually occur
 - s-total(e) and total(f) are also dictionaries
 
-### Results
-##### English French Corpus
+## Results
+
+### English French Corpus
 - **Precision** = 0.6748952929446704
 - **Recall** = 0.5686194765008536
 - **Alignment Error Rate** = 0.3861122636420051
@@ -33,7 +32,7 @@ Some of the alignments that IBM Model 1 gives (calculated based on highest trans
 - enjoyed Français 0.23148559917324313
 
 
-##### English Hindi Corpus
+### English Hindi Corpus
 Some of the alignments that IBM Model 1 gives (calculated based on highest translation probability) : 
 - treatment उपचार 0.8901654774236055
 - taken ली 0.35859244490666603
